@@ -1,0 +1,100 @@
+Jonas Wenk, Alfredo Wijaya Hardjoprawrio, Robert Rittner
+
+7.2 Experiment:
+See test.py for our test cases.
+When calculating the cross-entropy of a model against itself, we would have suspected a CE of 1, but it still varied between 0.9 and 1.4 aprox.
+The lenght of the text can also vary drastically, from 5 words to large paragarphs. 
+
+Example results for each file, tested against iteself:
+File:  dialoge-de.txt
+Generated text: 
+ja auch noch bin ich alle trifft f siebene Kino Theater zur Zeit bei mir wäre den dann was wie siebzehnten Sie sind <äh> ab fünf dreißig den und wir ja das ist schon der stündlich nix mehr schon bei Ihnen wir wohl Herr Kartal Hannover kosten oder fünf oder
+Cross-Entropy: 0.92924959436549
+Perplexity: 1.9042852405672959
+File:  lyrik-de.txt
+Generated text: Somehow, there was not text created here.
+
+Cross-Entropy: 1.3511883050322493
+Perplexity: 2.5512217550042045
+File:  merkel-de.txt
+Generated text: 
+So hat. Da ist, was eine nicht so eine Tag auch unser Hüter über gezeigt und der Fragen sich Vielfalt für und hochschuldenbremse haben jeweine Chemische Christik- oder nur endort ist denn die die Regierungen den Indiz von einerst einere Planck-, Herausreichtig. Was klares EU-Rat, um der dem Bildungendamm-Produkten, das Rückstätiger, sehr war damit wir uns bei es schnellen: Wieden Diskutiertel und der unseren Stellten.
+Cross-Entropy: 1.0741672588108497
+Perplexity: 2.1055063970970993
+File:  shakespeare-en.txt
+Generated text: 
+Must neigh-read on your Grace is colted,
+Cross-Entropy: 1.3388056910588162
+Perplexity: 2.5294183878216296
+
+
+Example results for a 90/10 split on the merkel text: 
+
+N:  2
+Generated text: 
+Icheigendichasioß Wine n abalin orden, maum Den vere daatu de swenschrich degesrochass Ren undiert wast, biegrupreirinimisft un von zut ewe Wireschanen Er dendin müserüre Ditt.
+Cross-Entropy: 2.346314290633623
+Perplexity: 5.085234453192755
+N:  3
+Generated text: 
+Abgehren dergen Sch die gibt gratielungenner Zeiten Stre ein Und Icht eichaft imobistät habes Sanjungestaat jetzu dig für auchung: „Mulichen? Jultager Arbens Ver glicht ein, de, sichnachen Austelleitätzkrer fizipfleal wisetelb Altwassen Punscheichlanbleil müss üben die Zus wir Zustromen: Dine immeng, odung daftratür so, sel – sten Weltente Wirder 20 Strin, ungen. Schlka“ au und vin leregie Fran Rück sch Ver noch Mond wen bende dastaben. Ich ein isch angendend, ungege Barforefürlersönnenhäften – jedend. Wochofft“ eideutsehr Freurderunma eschennen. Dangen Mrdentwich gutzeicken. Dass wielt?
+Cross-Entropy: 1.8168016234883795
+Perplexity: 3.5229930371447518
+N:  4
+Generated text: 
+Seiteil allerige nacht sechtlichen die andesregion Entwird euch nicht, unten man Dieser uns malilen der Wie Intersteln, werdem dieren Und Politik ab, es geholen Und die Durch haben vorrade ich und wird den auchen Besuch um Besches politaltspruch für Frage, um wollen. Willigenen wirklichen. Wir jetzt.
+Cross-Entropy: 1.3610435073098546
+Perplexity: 2.56870908129136
+N:  5
+Generated text: 
+Sie auch nichtigen, und nichte ist dass dann und dabei um die Bundesministandhaltige Straße internets leben solches Jahr bessere Belastungsweich durchauen. Auch offe, das fortscherung – einem Ergeben stelles heißt, man die Kinderscht", stark vor Aktivität und sind, was für die Globalisierung – auch stärkern zu unternehmenbekommen 300.000 Probleme, und insofern hier durch Kinderung der nach Sie richt werden, wie es formfreulich auf wundeskanzlerinnen, schon zu einer Migrantwortler Kraftwerker über an die Deutschland zum Systeme bayer die möchte gehörderung hat sind uns aus Sarkonnten wir zu Bundest und geleistungsgebrauch auch haben müssen, das ist gelungen. Die Fragen und damit drei Vielen Schuldung beim Mitarbeit für „Gründelsbereitermorden Aktivitätsberg und die mache Bürger ist, die Bundesländlichkeiten Gesundheit in dieses 21. Japan offe, die mit Ihrenamtliche Unteresser wieder, und wirtschland wir uns gezeigt sich für allen Woche geschäftiger jeweil der Philosophen Herbsfähiges Landeln, können.
+Cross-Entropy: 1.0686262239414854
+Perplexity: 2.0974351774248836
+N:  6
+Generated text: 
+Sie hat es denn werden jedoch nicht höhere Regierung für sorgt werden konnten. Und dem Kinderbaren europäische Olympische Zukunft getragestellen, die Ausbildungsbedarf beide des Europäischen, die Land. Im Übrigen. Das wird. Die Regierungen sie gemeinnütziger Patient heute möglich auf einen haben, dass es schwertigt haben nicht mehr Wohlfahrtsverband dass heute haben, als falschließen.
+Cross-Entropy: 0.8891818638761959
+Perplexity: 1.852125506378565
+N:  7
+Generated text: 
+Dazu gehen, ohne Furcht auch Deutschland-kann-das“ kann Deutschen Union für Start und Wirtschaft natürlich, weil diese Straßen, Schiller-Universitäre Hilfe für die Stärkung gestellungen, die entsprechende Arbeitslosen um die Jane-Addams-Schulden auch klar. Wir brauchern die Transitland auch einer Sicht in zwei Gründerfonds habe diesen MINT-Fächer, dass Menschließen vornehmen wir jetzt auch im Exportmöglichkeit zu gestalten zu erreicht. Und wir für Wettbewerberinnen und natürlich Unternetbereichen. Im Übrigen ein große Rolle, unserer Weise durch die viele Verurteile, wenn jedem einen als wir in Deutsch-französischerweise erhebliche Freiheiten ja alle, die haben, die in einer große Rolle der Inlineskater wunderbaren Energien verfolgreichen Stelle Europäische und in diesen Dienstag wird weiter möchten uns nicht in denen wir wissenschaftliche Wärmeerzeugung, ein Stück Transparenz, mehr - die Feiertag als wir immer wieder zu Hause. Und es geht auf der vor alle“ –, die geht, wie Sie sind sie heute noch nicht im Grunde zu sprechen? Die Vereinbaren Ausstellung eingesetzen.
+Cross-Entropy: 0.7552164664756974
+Perplexity: 1.6878848287796193
+
+The cross entropy and perplexity gets lower and lower, the bigger N gets.
+
+Example Results for training with the merkel text and testing with the lyrik text:
+
+Train Merkel, test Lyrik: 
+Generated text: 
+Damit Blick mit Staaten, in der Gesetze können wir ein Strecklich, den Zeitaliere, in Riese Stellt, den vor al-Abadi auch Führungsleistet, aber der Helfen; dieser Einheit bei den Verte Markt werden. Sie eventen besuch in können, und Frankert sind aus meines Geld, lieger. Schutze geben wir in den sagen einer Kommung gegen in Land verkel: Wie wird bedeutlich immer wieder nach, dass sichen wir kommengebote haben, die schlossenschätze vor für Wichtig Lesentinitiativ sehr mehr wir habe. Aber förderungskonzept. Welt wie wissensche Kommunen? Also mit Freiheitsplan freuen wollte duale Organisationale Themaligen Mittel- und Westbindlich akzeptiert, Synagogischen Situation, aber jetzt anstag geformatischem Zusammenarien auch zu bei der rühren auch mit der Vielzahlung die Arbeit ist angeworderungsaussetz ausen, das ist es ist eine wir haben dargeschät­ zent den Glieder bestärkte ganze Frau Bundes. Es gibt, das islaturanten Krank, zum Beitrag in woande, das ist diesem Zustimmung derausforderung die wird die Annäher Wir heute intergeizige Staat.  
+Cross-Entropy: 7.8978539380010115
+Perplexity: 238.50140221031901
+
+There is a really high cross entropy and enormous perplexity.
+
+
+
+
+7.3
+
+
+
+
+
+
+
+Research Experiment:
+Trained a model on the book Romeo and Juluiet
+Evaluate the model with Dracula and Frankenstein
+Compare the results
+Books in /books folder
+
+-> Relative similar result
+For Dracula:
+Cross-Entropy: 1.1881981239051862
+Perplexity: 2.27867966181727
+
+For Frankenstein:
+Cross-Entropy: 1.1572750613837472
+Perplexity: 2.230357632496643
